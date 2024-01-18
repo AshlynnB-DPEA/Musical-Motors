@@ -41,90 +41,111 @@ class KeyboardApp(App):
 
 class Keyboard(Screen):
 
-    def run_motor(self):
-        dpiStepper.moveToRelativePositionInRevolutions(0, 0.1, False)
-
-    Clock.schedule_interval(run_motor, 0.1)
-
-
-
     def stopMotor(self):
-        dpiStepper.setSpeedInRevolutionsPerSecond(0, 0)
+        print("b")
+        #dpiStepper.setSpeedInRevolutionsPerSecond(0, 0)
+        dpiStepper.decelerateToAStop(0)
+
 
     def c3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .082)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def cshp3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .087)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def d3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .0923)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def dshp3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .097)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def e3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .1036)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def f3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .109)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def fshp3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .1151)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def g3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0,.1225)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def gshp3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .13)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def a3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .1375)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def ashp3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .1463)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def b3(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .1545)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def c4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .1644)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def cshp4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .174)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def d4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .185)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def dshp4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .195)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def e4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .2065)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def f4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .21935)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def fshp4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .232)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def g4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .245)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def gshp4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .261)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def a4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .27515)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def ashp4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .2913)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def b4(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .31)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
     def c5(self):
         dpiStepper.setSpeedInRevolutionsPerSecond(0, .327)
+        dpiStepper.moveToRelativePositionInRevolutions(0, 10000, False)
 
 
 
