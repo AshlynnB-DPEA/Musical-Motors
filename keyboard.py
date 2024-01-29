@@ -21,6 +21,8 @@ dpiStepper.setAccelerationInMillimetersPerSecondPerSecond(0, accel_in_mm_per_sec
 wait_to_finish_moving_flg = False
 
 """
+
+
 stepper_num = 0
 gear_ratio = 1
 motorStepPerRevolution = 1600 * gear_ratio
